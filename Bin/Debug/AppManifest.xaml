@@ -1,0 +1,11 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="ShapeFilesViewModel" EntryPointType="ShapeFilesViewModel.App" RuntimeVersion="5.0.61118.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="ShapeFilesViewModel" Source="ShapeFilesViewModel.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Controls.DataVisualization" Source="Telerik.Windows.Controls.DataVisualization.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Controls" Source="Telerik.Windows.Controls.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Data" Source="Telerik.Windows.Data.dll" />
+    <AssemblyPart x:Name="System.Xml.Linq" Source="System.Xml.Linq.dll" />
+    <AssemblyPart x:Name="System.Windows.Data" Source="System.Windows.Data.dll" />
+    <AssemblyPart x:Name="System.ComponentModel.DataAnnotations" Source="System.ComponentModel.DataAnnotations.dll" />
+  </Deployment.Parts>
+</Deployment>
